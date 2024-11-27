@@ -1,0 +1,30 @@
+.campo-texto {
+    margin: 24px 0;
+    font-family: 'Monstserrat', sans-serif;
+}
+
+.campo-texto label {
+    font-size: 18px;
+    font-weight: 600;
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 8px;
+}
+
+.campo-texto input {
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.06);
+    border: none;
+    padding: 30px 20px;
+    outline-color: #6278F7;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+
+.campo-texto input::placeholder {
+    font-size: 16px;
+    color: #AFAFAF;
+    font-family: 'Montserrat', sans-serif;
+}
