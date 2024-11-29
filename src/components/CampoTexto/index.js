@@ -13,4 +13,4 @@ const CampoTexto = (props) => {
 
 }
 
-export default CampoTexto;
+export default CampoTexto;  
