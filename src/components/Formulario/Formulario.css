@@ -5,15 +5,23 @@
 }
 
 .formulario form {
-    max-width: 80%;
+    max-width: 100%;
     background-color: #f7f7f7;
     border-radius: 20px;
     box-shadow: 7px 7px 15px rgba(0, 0, 0, 0.25);
-    padding: 8px 100px;
+    padding: 8px 40px;
 }
 
 .formulario h2 {
     font-size: 2rem;
     font-weight: 400;
     color: #212121;
+}
+
+@media (min-width: 650px) {
+
+    .formulario form {
+        max-width: 80%;
+        padding: 8px 100px;
+    }
 }

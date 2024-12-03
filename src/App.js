@@ -4,12 +4,21 @@ import Header from './components/Header/Header';
 import Formulario from './components/Formulario/Formulario';
 import MyOrg from './components/MyOrg';
 import Equipo from './components/Equipo';
+import Footer from './components/Footer';
 import './App.css';
 
 function App() {
 
   const [mostrarFormulario, actualizarMostrar] = useState(false);
-  const [colaboradores, actualizarColaboradores] = useState([]);
+  const [colaboradores, actualizarColaboradores] = useState([
+    { nombre: 'Brayan Velasquez', puesto: 'Desarrolladora de software', foto: 'https://github.com/BryantGG77.png', equipo: 'Programación' },
+    { nombre: 'Harland Lohora', puesto: 'Desarrolladora de software', foto: 'https://github.com/harlandlohora.png', equipo: 'Front End' },
+    { nombre: 'Jose Gonzalez', puesto: 'Dev. FullStack', foto: 'https://github.com/JoseDarioGonzalezCha.png', equipo: 'Programación' },
+    { nombre: 'Jeanmarie Quijada', puesto: 'Instructora en Alura Latam', foto: 'https://github.com/JeanmarieAluraLatam.png', equipo: 'Devops' },
+    {
+      nombre: 'Christian Velasco', puesto: 'Head de Alura e instructor', foto: 'https://github.com/christianpva.png', equipo: 'Front End'
+    },
+  ]);
 
   const cambiarMostrar = () => {
     actualizarMostrar(!mostrarFormulario);
@@ -40,10 +49,13 @@ function App() {
       {mostrarFormulario && <Formulario equipos={equipos.map((equipo) => equipo.titulo)} registrarColaborador={registrarColaborador} />}
       <MyOrg cambiarMostrar={cambiarMostrar} />
       {
-        equipos.map((equipo) => <Equipo datos={equipo} key={equipo.titulo} />)
+        equipos.map((equipo) => <Equipo datos={equipo} key={equipo.titulo} colaboradores={colaboradores.filter(colaborador => colaborador.equipo === equipo.titulo)} />)
       }
+
+      <Footer />
     </div>
   );
 }
 
 export default App;
+

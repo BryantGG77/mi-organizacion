@@ -2,6 +2,7 @@
     width: 100%;
     display: flex;
     justify-content: center;
+    flex-direction: column;
     align-items: center;
     gap: 24px;
 }
@@ -17,4 +18,10 @@
 .orgSection img {
     cursor: pointer;
     max-width: 100%;
+}
+
+@media (min-width: 650px) {
+    .orgSection {
+        flex-direction: row;
+    }
 }
