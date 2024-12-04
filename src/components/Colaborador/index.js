@@ -4,11 +4,11 @@ import { IoMdClose } from "react-icons/io";
 const Colaborador = (props) => {
 
 
-    const { nombre, puesto, foto } = props.datos;
+    const { nombre, puesto, foto, equipo, id } = props.datos;
     const { colorPrimario, eliminarColaborador } = props;
     return (
         <div className='colaborador'>
-            <IoMdClose className='close' onClick={eliminarColaborador} />
+            <IoMdClose className='close' onClick={() => eliminarColaborador(id)} />
             <div className='encabezado' style={{ backgroundColor: colorPrimario }}>
                 <img src={foto} alt={nombre} />
             </div>
