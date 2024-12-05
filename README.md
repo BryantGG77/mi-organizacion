@@ -36,13 +36,21 @@ Org es una aplicación web diseñada para organizar equipos y colaboradores por 
 ## Estructura del proyecto
 
 org-react/
+
 ├── public/
+
 ├── src/
+
 │   ├── components/       # Componentes reutilizables
+
 │   ├── assets/           # Imágenes y recursos estáticos
+
 │   ├── styles/           # Archivos CSS
+
 │   ├── App.js            # Componente principal
+
 │   └── index.js          # Punto de entrada de la aplicación
+
 └── package.json          # Dependencias y scripts
 
 ## 🧑‍💻 Autor
