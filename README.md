@@ -13,8 +13,8 @@ Org es una aplicación web diseñada para organizar equipos y colaboradores por 
 - **Interfaz interactiva**: Diseño intuitivo y atractivo para facilitar la experiencia del usuario.  
 
 ## 🖼️ Vista previa  
-![Vista previa](https://via.placeholder.com/800x400.png?text=Org+-+Proyecto+React)  
-*(Reemplaza esta URL con una captura de tu proyecto)*  
+
+ ![Screenshot 2024-12-05 120351](https://github.com/user-attachments/assets/ff66ecfa-dbfe-4b43-bf54-c77788d0b1aa)
 
 ## 🚀 Cómo ejecutar el proyecto  
 1. Clona este repositorio:  
