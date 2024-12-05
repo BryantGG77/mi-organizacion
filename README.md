@@ -20,3 +20,31 @@ Org es una aplicación web diseñada para organizar equipos y colaboradores por 
 1. Clona este repositorio:  
    ```bash
    git clone https://github.com/tuusuario/org-react.git
+2. Accede al directorio del proyecto:  
+   ```bash
+   cd org-react
+3. Instala las dependencias: 
+   ```bash
+   npm install
+
+4. Inicia el servidor de desarrollo:  
+   ```bash
+   npm start
+
+5. Abre http://localhost:3000 en tu navegador.
+   
+## Estructura del proyecto
+
+org-react/
+├── public/
+├── src/
+│   ├── components/       # Componentes reutilizables
+│   ├── assets/           # Imágenes y recursos estáticos
+│   ├── styles/           # Archivos CSS
+│   ├── App.js            # Componente principal
+│   └── index.js          # Punto de entrada de la aplicación
+└── package.json          # Dependencias y scripts
+
+## 🧑‍💻 Autor
+Desarrollado por Brayan Velasquez.
+
