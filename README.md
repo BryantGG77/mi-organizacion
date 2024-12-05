@@ -42,11 +42,11 @@ org/
 
 ├── public/
 
+│   ├── assets/           # Imágenes y recursos estáticos
+
 ├── src/
 
 │   ├── components/       # Componentes reutilizables
-
-│   ├── assets/           # Imágenes y recursos estáticos
 
 │   ├── styles/           # Archivos CSS
 
