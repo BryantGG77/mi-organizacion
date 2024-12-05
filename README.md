@@ -15,6 +15,7 @@ Org es una aplicación web diseñada para organizar equipos y colaboradores por 
 ## 🖼️ Vista previa  
 
  ![Screenshot 2024-12-05 120351](https://github.com/user-attachments/assets/ff66ecfa-dbfe-4b43-bf54-c77788d0b1aa)
+ ![Screenshot 2024-12-05 121853](https://github.com/user-attachments/assets/5d9d0b70-abed-473e-8e5c-b429daba3e89)
 
 ## 🚀 Cómo ejecutar el proyecto  
 1. Clona este repositorio:  
