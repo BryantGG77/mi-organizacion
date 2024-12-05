@@ -1,4 +1,4 @@
-# Org - Proyecto React  
+# Mi Organización - Proyecto React  
 Este proyecto es parte del curso **"React: cómo los componentes funcionan"** de [Alura Latam](https://www.aluracursos.com/).  
 Org es una aplicación web diseñada para organizar equipos y colaboradores por áreas de trabajo.  
 
@@ -35,7 +35,7 @@ Org es una aplicación web diseñada para organizar equipos y colaboradores por 
    
 ## Estructura del proyecto
 
-org-react/
+org/
 
 ├── public/
 
